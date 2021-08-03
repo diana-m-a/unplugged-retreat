@@ -134,7 +134,7 @@ img {
 }
  
 figure {
- 
+ margin: 0;
 }
  
 address {
@@ -167,6 +167,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -241,6 +249,7 @@ footer .copyright {
   flex-flow: row wrap;
   background: url("/Assets/jake-melara-30679-unsplash.jpg") center no-repeat #333;
   background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -292,7 +301,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url("/Assets/rawpixel-800820-unsplash1.jpg");
+  background: url("/Assets/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -528,6 +538,10 @@ header nav ul {
 
 /* Hero Area */
 
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -576,8 +590,14 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
+.reviews article figure, 
 .reviews article div {
   width: 49%;         
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
 }
 
 /* Footer */
@@ -692,7 +712,7 @@ p {
 
 /* Hero Area */
 .hero-area h1 {
-  width: 60%;
+  width: 80%;
   font-size: 3.75em;
 }
 
