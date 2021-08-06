@@ -233,6 +233,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.125em;
+  background: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 footer .copyright {
@@ -324,6 +329,11 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
+}
+
+.fontawesome-icon {
+  font-size: 3.75em;
+  padding-bottom: 40px;
 }
 
 /* Reviews */
@@ -596,6 +606,10 @@ aside .content-wrapper .form {
   width: 62%;
 }
 
+.fontawesome-icon {
+  padding-bottom: 30px;
+}
+
 /* Reviews */
 .reviews article {
   display: flex;
@@ -640,6 +654,11 @@ footer h4 {
 
 footer p {
   line-height: 1.285;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
