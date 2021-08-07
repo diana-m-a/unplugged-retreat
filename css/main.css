@@ -199,6 +199,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-left: 0;
 }
 
 header nav ul li {
@@ -418,6 +419,7 @@ input[type=button] {
 .faq h2 {
   margin-bottom: 40px;
   line-height: 1;
+  width: 100%;
 }
 
 .faq-content {
